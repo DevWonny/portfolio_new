@@ -9,4 +9,58 @@ div.introduce-wrap {
   box-shadow: 2px 2px 4px 2px rgba(#fff, 0.15);
   overflow: hidden;
   padding: 50px 0;
+  gap: 30px;
+
+  div.profile-container {
+    gap: 20px;
+    div.profile-picture {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+      background-color: $bg-third;
+    }
+    p.profile-name {
+      // font-size: 25px;
+      font-size: 20px;
+    }
+
+    p.profile-category {
+      // font-size: 20px;
+      font-size: 16px;
+    }
+  }
+
+  div.bot-container {
+    gap: 15px;
+    div.birth-container,
+    div.phone-container,
+    div.email-container {
+      gap: 5px;
+      p.label {
+        font-size: 14px;
+      }
+      p.content {
+        font-size: 18px;
+      }
+    }
+
+    div.etc-container {
+      p.label {
+        font-size: 14px;
+      }
+      div.git-container,
+      div.resume-container {
+        gap: 5px;
+      }
+      div.icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: $bg-third;
+        overflow: hidden;
+        cursor: pointer;
+      }
+    }
+  }
 }
