@@ -8,6 +8,7 @@ export default function Main() {
   return (
     <div className="main-wrap flex ">
       <Introduce />
+      <div className="main-container w-full"></div>
     </div>
   );
 }
