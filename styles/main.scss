@@ -24,7 +24,10 @@ div.main-wrap {
         gap: 20.85714286%;
         li.item {
           font-size: 20px;
-          cursor: pointer;
+
+          &.active {
+            color: $point-color;
+          }
         }
       }
     }
