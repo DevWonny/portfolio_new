@@ -2,6 +2,9 @@
 import { useState, useRef } from "react";
 // component
 import Introduce from "@/app/components/introduce";
+import About from "@/app/components/about";
+import Career from "@/app/components/career";
+import Portfolio from "@/app/components/portfolio";
 // style
 import "@/styles/main.scss";
 
@@ -26,6 +29,16 @@ export default function Main() {
               </li>
             ))}
           </ul>
+        </div>
+
+        <div className="content">
+          {activeIndex === 0 ? (
+            <About />
+          ) : activeIndex === 1 ? (
+            <Career />
+          ) : (
+            <Portfolio />
+          )}
         </div>
       </div>
     </div>
