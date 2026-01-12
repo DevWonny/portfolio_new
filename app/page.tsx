@@ -31,7 +31,7 @@ export default function Main() {
           </ul>
         </div>
 
-        <div className="content">
+        <div className="content w-full h-full">
           {activeIndex === 0 ? (
             <About />
           ) : activeIndex === 1 ? (

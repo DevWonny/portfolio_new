@@ -1,0 +1,13 @@
+@import "@/styles/globals.scss";
+div.career-wrap {
+  cursor: default;
+  h1.title {
+    font-size: 48px;
+  }
+
+  div.division {
+    width: 250px;
+    height: 3px;
+    background-color: $point-border;
+  }
+}
