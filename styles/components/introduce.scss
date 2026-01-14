@@ -61,6 +61,10 @@ div.introduce-wrap {
         background-color: $bg-third;
         overflow: hidden;
         cursor: pointer;
+
+        &:hover {
+          color: $point-color;
+        }
       }
     }
   }
