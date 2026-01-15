@@ -20,6 +20,14 @@ div.about-wrap {
 
     div.badge {
       margin-bottom: 5px;
+      border-radius: 8px;
+      // background-color: $bg-color;
+      color: $point-color;
+      // background-color: $point-color;
+      // color: $bg-color;
+      border: 1px solid $point-border;
+      width: fit-content;
+      padding: 0 10px;
     }
   }
 
