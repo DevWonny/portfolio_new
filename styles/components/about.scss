@@ -10,4 +10,56 @@ div.about-wrap {
     height: 3px;
     background-color: $point-border;
   }
+  div.intro-container,
+  div.style-container,
+  div.stack-container,
+  div.certification-container {
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+
+    div.badge {
+      margin-bottom: 5px;
+    }
+  }
+
+  div.intro-container {
+    margin-top: 20px;
+    div.text {
+      white-space: pre-wrap;
+    }
+  }
+
+  div.style-container {
+    ul.text {
+      padding-left: 18px;
+      li {
+        list-style: disc;
+      }
+    }
+  }
+
+  div.stack-container {
+    div.stack-list {
+      gap: 50px;
+      div.stack-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        div.item-container {
+          display: flex;
+          gap: 5px;
+
+          div.item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+          }
+        }
+      }
+    }
+  }
 }
