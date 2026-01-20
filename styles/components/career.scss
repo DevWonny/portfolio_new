@@ -48,6 +48,24 @@ div.career-wrap {
         h3 {
           font-size: 18px;
         }
+
+        ul.tech-list {
+          li {
+            &:first-child {
+              font-weight: 700;
+              list-style: none;
+            }
+          }
+        }
+
+        ul.role-list {
+          li {
+            &:first-child {
+              font-weight: 700;
+              list-style: none;
+            }
+          }
+        }
       }
     }
   }

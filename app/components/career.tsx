@@ -16,9 +16,13 @@ export default function Career() {
             <span className="date">2022.02 ~ 2022.08</span>
             <h3>프래프</h3>
             <p>Frontend Developer</p>
-            <ul>
-              <li>역할 및 사용기능</li>
-              <li>React / Javascript</li>
+            <ul className="tech-list">
+              <li>Tech</li>
+              <li>React, Javascript, REST API 연동</li>
+            </ul>
+
+            <ul className="role-list">
+              <li>Role</li>
               <li>신규 프로젝트 진행</li>
             </ul>
           </div>
@@ -30,9 +34,13 @@ export default function Career() {
             <span className="date">2022.11 ~ 2025.01</span>
             <h3>비투지게임즈</h3>
             <p>Frontend Developer</p>
-            <ul>
-              <li>역할 및 사용기능</li>
-              <li>Vue.js / Nuxt.js / Typescript</li>
+            <ul className="tech-list">
+              <li>Tech</li>
+              <li>Vue.js, Nuxt.js, Typescript, Pinia</li>
+            </ul>
+
+            <ul className="role-list">
+              <li>Role</li>
               <li>신규 프로젝트 진행</li>
             </ul>
           </div>
