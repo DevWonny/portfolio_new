@@ -35,14 +35,20 @@ export default function Introduce() {
           <div className="git-container flex flex-col items-center">
             <p className="label">GITHUB</p>
             <div className="icon flex items-center justify-center">
-              <Github />
-              {/* 아이콘 넣기. 클릭시 해당 페이지 새창 오픈 */}
+              <a
+                href="https://github.com/DevWonny"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github />
+              </a>
             </div>
           </div>
 
           <div className="resume-container flex flex-col items-center">
             <p className="label">RESUME</p>
             <div className="icon flex items-center justify-center">
+              {/* <a href="" download="윤철원_이력서.pdf"></a> */}
               <FileUser />
               {/* 아이콘 넣기. 클릭시 다운로드 */}
             </div>
