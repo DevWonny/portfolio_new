@@ -14,6 +14,7 @@ div.portfolio-wrap {
 
   div.portfolio-contents {
     div.list-container {
+      border: 1px solid red;
       div.company-container,
       div.personal-container {
         h2.label {
@@ -49,6 +50,8 @@ div.portfolio-wrap {
     }
 
     div.detail-container {
+      width: 50%;
+      border: 1px solid red;
     }
   }
 }

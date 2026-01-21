@@ -1,5 +1,11 @@
 "use client";
 import { useState } from "react";
+// components
+import PortfolioFanfan from "./portfolio_fanfan";
+import PortfolioAuton from "./portfolio_auton";
+import PortfolioBookmarker from "./portfolio_bookmarker";
+import PortfolioDashboard from "./portfolio_stockdashboard";
+
 // style
 import "@/styles/components/portfolio.scss";
 
@@ -55,7 +61,17 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="detail-container"></div>
+        <div className="detail-container">
+          {activeIndex === 1 ? (
+            <PortfolioFanfan />
+          ) : activeIndex === 2 ? (
+            <PortfolioAuton />
+          ) : activeIndex === 3 ? (
+            <PortfolioBookmarker />
+          ) : (
+            activeIndex === 4 && <PortfolioDashboard />
+          )}
+        </div>
       </div>
     </div>
   );
