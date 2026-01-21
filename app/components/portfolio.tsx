@@ -61,7 +61,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="detail-container">
+        <div className="detail-wrap">
           {activeIndex === 1 ? (
             <PortfolioFanfan />
           ) : activeIndex === 2 ? (
