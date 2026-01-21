@@ -9,5 +9,46 @@ div.portfolio-wrap {
     width: 250px;
     height: 3px;
     background-color: $point-border;
+    margin-bottom: 20px;
+  }
+
+  div.portfolio-contents {
+    div.list-container {
+      div.company-container,
+      div.personal-container {
+        h2.label {
+          border-radius: 8px;
+          color: $point-color;
+          border: 1px solid $point-border;
+          width: fit-content;
+          padding: 0 10px;
+          margin-bottom: 10px;
+        }
+
+        p.project-label {
+          font-size: 14px;
+          padding-left: 10px;
+          cursor: pointer;
+          &:not(:last-child) {
+            margin-bottom: 5px;
+          }
+
+          &.active {
+            color: $point-color;
+            font-weight: 700;
+          }
+        }
+      }
+
+      div.company-container {
+        margin-bottom: 20px;
+      }
+
+      div.personal-container {
+      }
+    }
+
+    div.detail-container {
+    }
   }
 }

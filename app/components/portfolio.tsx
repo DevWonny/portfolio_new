@@ -6,9 +6,24 @@ export default function Portfolio() {
     <div className="portfolio-wrap">
       <h1 className="title">Portfolio</h1>
       <div className="division"></div>
-      모든 프로젝트 기입 / 실무에서 했던 프로젝트 경력기술서처럼 자세히 기술 /
-      개인 플젝은 간단하면서 어떤 목적을 가지고 작업했는지, 알게된점, 어떤 스킬
-      사용했는지 기입. + 링크 추가 / 실무 우선 기입 이후 개인플젝
+
+      <div className="portfolio-contents flex justify-between">
+        <div className="list-container">
+          <div className="company-container">
+            <h2 className="label">Company Projects</h2>
+            <p className="project-label active">FanFan Project</p>
+            <p className="project-label">오토엔 Project</p>
+          </div>
+
+          <div className="personal-container">
+            <h2 className="label">Personal Projects</h2>
+            <p className="project-label">Bookmarker</p>
+            <p className="project-label">StockDashboard</p>
+          </div>
+        </div>
+
+        <div className="detail-container"></div>
+      </div>
     </div>
   );
 }
