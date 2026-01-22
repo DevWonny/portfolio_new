@@ -10,7 +10,13 @@ export default function PortfolioDashboard() {
         Lightweight Charts / TailwindCSS / SCSS
       </p>
       <p>현재 상태 : Live</p>
-      <p>바로가기</p>
+      <a
+        href="https://stock-dashboard-ten-rho.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        바로가기
+      </a>
       <button>상세 보기</button>
       <div className="detail-container"></div>
     </div>

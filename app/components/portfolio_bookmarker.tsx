@@ -10,7 +10,13 @@ export default function PortfolioBookmarker() {
         / SCSS
       </p>
       <p>현재 상태 : Live</p>
-      <p>바로가기</p>
+      <a
+        href="https://bookmarker-liard.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        바로가기
+      </a>
       <button>상세 보기</button>
       <div className="detail-container"></div>
     </div>
