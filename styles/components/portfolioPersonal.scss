@@ -1,0 +1,25 @@
+@import "@/styles/globals.scss";
+div.personal-container {
+  gap: 15px;
+  h2.title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  div.brief-intro {
+    gap: 5px;
+    a {
+      &:hover {
+        color: $point-color;
+      }
+    }
+  }
+
+  button {
+    width: fit-content;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

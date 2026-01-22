@@ -21,7 +21,10 @@ export default function PortfolioFanfan() {
       <div className="brief-intro flex flex-col">
         <p>소속 회사 : 비투지 게임즈</p>
         <p>주요 역할 : 프론트엔드 개발 및 리딩</p>
-        <p>사용 스택 : Vue.js / Nuxt.js / Typescript / Pinia / Axios </p>
+        <p>
+          사용 스택 : Vue.js / Nuxt.js / Typescript / Pinia / Axios / Chart.js /
+          SCSS
+        </p>
         <p>현재 상태 : Internal Project / Closed Service</p>
       </div>
 
