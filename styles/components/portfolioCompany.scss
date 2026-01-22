@@ -1,0 +1,20 @@
+@import "@/styles/globals.scss";
+div.company-container {
+  gap: 15px;
+  h2.title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  div.brief-intro {
+    gap: 5px;
+  }
+
+  button {
+    width: fit-content;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
