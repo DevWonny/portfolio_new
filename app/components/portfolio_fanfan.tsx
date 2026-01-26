@@ -20,7 +20,7 @@ export default function PortfolioFanfan() {
       <h2 className="title">FanFan Project</h2>
       <div className="brief-intro flex flex-col">
         <p>소속 회사 : 비투지 게임즈</p>
-        <p>주요 역할 : 프론트엔드 개발 및 리딩</p>
+        <p>주요 역할 : 프론트엔드 개발 및 프로젝트 후반부 리딩</p>
         <p>
           사용 스택 : Vue.js / Nuxt.js / Typescript / Pinia / Axios / Chart.js /
           SCSS
@@ -59,9 +59,10 @@ export default function PortfolioFanfan() {
           <div className="detail-content flex flex-col">
             {/* 역할 및 기여도 -> 무엇을 맡았고, 얼마나 주도했는지 (수치화 + 담당 범위 명확히)*/}
             <h2>담당 역할</h2>
-            <p>{`프론트엔드 개발 및 프로젝트 후반부 리드`}</p>
+            <p>{`프론트엔드 개발`}</p>
             <p>{`전체 서비스 중 약 70% 페이지 참여`}</p>
             <p>{`게임 핵심 콘텐츠(판타지 게임 / 시뮬레이션) 100% 참여`}</p>
+            <p>{`프로젝트 후반부 프론트엔드 개발 리딩 역할 수행\n(신규 인원 온보딩 및 작업 분배 / 주요 기능 구현 방향성 제시 및 코드리뷰)`}</p>
           </div>
 
           <div className="detail-content flex flex-col">
@@ -107,6 +108,7 @@ export default function PortfolioFanfan() {
             <p>{`대규모 페이지 및 상태 복잡도가 높은 프로젝트 구조 경험`}</p>
             <p>{`복잡한 구조와 UI 상태 동기화에 대한 이해도 향상`}</p>
             <p>{`장기 프로젝트에서 유지보수성과 확장성을 고려한 개발 경험`}</p>
+            <p>{`프로젝트 후반부 프론트엔드 인력 변동 상황에서 기존 코드 구조를 정리하고 개발 방향을 리딩하며 안정적인 기능 개발을 유지`}</p>
           </div>
         </div>
       )}
