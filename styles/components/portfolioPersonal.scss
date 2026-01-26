@@ -22,4 +22,23 @@ div.personal-container {
     align-items: center;
     justify-content: center;
   }
+
+  div.detail-container {
+    gap: 10px;
+    div.detail-content {
+      gap: 5px;
+
+      h2 {
+        font-size: 18px;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+      }
+
+      p {
+        white-space: pre-line;
+        font-size: 14px;
+        padding-left: 5px;
+      }
+    }
+  }
 }
