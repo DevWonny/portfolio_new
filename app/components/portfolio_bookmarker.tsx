@@ -58,11 +58,13 @@ export default function PortfolioBookmarker() {
           <div className="detail-content flex flex-col">
             {/* 개요 수정, 기획의도 체크, 주요 기능 추가(지도) */}
             <h2>프로젝트 개요</h2>
-            <p>{`Bookmarker는 읽고 싶은 도서나 관심 있는 책을 검색하고 저장할 수 있는 개인 북마크형 웹 서비스입니다.\nOpen API 기반의 데이터 조회부터 검색 / 탐색 / 저장 / 재확인까지 사용자 흐름을 고려한 프론트엔드 설계를 목표로 개발했습니다.`}</p>
+            <p>{`Bookmarker는 읽고 싶은 도서나 관심 있는 책을 검색하고 저장할 수 있는 개인 북마크형 웹 서비스입니다.`}</p>
+            <p>{`Open API 기반의 데이터 조회부터 검색 / 탐색 / 저장 / 재확인까지 사용자 흐름을 고려한 프론트엔드 설계를 목표로 개발했습니다.`}</p>
           </div>
 
           <div className="detail-content flex flex-col">
             <h2>기획 의도</h2>
+            <p>{`Next.js와 TypeScript에 대한 이해도를 높이고,\nOpen API 데이터를 활용해 검색 / 저장/ 관리 흐름을 갖춘 실제 서비스 형태의 프론트엔드 구조를 설계하며,\nZustand를 포함한 경험해보지 못한 라이브러리를 활용한 상태 관리와 데이터 흐름을 구조적으로 학습하기 위해 기획한 프로젝트입니다.`}</p>
             <p>{`Open API를 활용한 실제 서비스 형태의 개인 프로젝트`}</p>
             <p>{`Next.js + Typescript 환경에서 프로젝트 구조 설계 연습`}</p>
             <p>{`사용자 관점에서의 로딩, 피드백, 인터랙션 개선에 대한 고민`}</p>
@@ -70,12 +72,13 @@ export default function PortfolioBookmarker() {
 
           <div className="detail-content flex flex-col">
             <h2>주요 기능</h2>
-            <p>도서 검색 기능 (Open API 연동)</p>
-            <p>검색 결과 리스트 및 상세 정보 UI 구현</p>
-            <p>관심 도서 북마크 기능</p>
-            <p>저장한 도서 목록 관리 페이지</p>
-            <p>Skeleton UI를 활용한 로딩 상태 처리</p>
-            <p>Toast 알림을 통한 사용자 피드백 제공</p>
+            <p>{`도서 검색 기능 (Open API 연동)`}</p>
+            <p>{`검색 결과 리스트 및 상세 정보 UI 구현`}</p>
+            <p>{`관심 도서 북마크 기능`}</p>
+            <p>{`저장한 도서 목록 관리 페이지`}</p>
+            <p>{`Skeleton UI를 활용한 로딩 상태 처리`}</p>
+            <p>{`사용자 현재 위치 기반 서점 위치 탐색 기능`}</p>
+            <p>{`Kakao Map API를 활용한 지도 표시 및 마커 연동`}</p>
           </div>
 
           <div className="detail-content flex flex-col">
@@ -84,6 +87,8 @@ export default function PortfolioBookmarker() {
             <p>{`Zustand를 활용한 전역 상태 관리`}</p>
             <p>{`React-loading-skeleton을 활용한 비동기 UX 개선`}</p>
             <p>{`SCSS와 Tailwind CSS를 병행 사용하여 스타일링 방식 비교 및 적용`}</p>
+            <p>{`Kakao Map API 연동을 통한 외부 지도 서비스 활용 경험`}</p>
+            <p>{`위치 정보 기반 UI 구성 및 사용자 인터랙션 설계`}</p>
           </div>
 
           <div className="detail-content flex flex-col">
