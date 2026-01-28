@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 // style
@@ -9,7 +10,9 @@ export default function Introduce() {
     // * 각 라벨 옆에 아이콘 넣기(맥북에서)!
     <div className="introduce-wrap flex flex-col items-center">
       <div className="profile-container flex flex-col items-center">
-        <div className="profile-picture"></div>
+        <div className="profile-picture flex items-center justify-center">
+          <img src="/profile.jpg" alt="Profile Image" />
+        </div>
         <p className="profile-name">윤철원</p>
         <p className="profile-category">Frontend Developer</p>
       </div>
