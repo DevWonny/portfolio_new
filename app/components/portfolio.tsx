@@ -22,11 +22,11 @@ export default function Portfolio() {
   };
 
   return (
-    <div className="portfolio-wrap">
+    <div className="portfolio-wrap h-full">
       <h1 className="title">Portfolio</h1>
       <div className="division"></div>
 
-      <div className="portfolio-contents flex justify-between">
+      <div className="portfolio-contents flex justify-between h-full">
         <div className="list-container">
           <div className="company-container">
             <h2 className="label">Company Projects</h2>

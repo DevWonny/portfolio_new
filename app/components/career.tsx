@@ -4,12 +4,12 @@ import "@/styles/components/career.scss";
 
 export default function Career() {
   return (
-    <div className="career-wrap">
+    <div className="career-wrap h-full">
       <h1 className="title">Career</h1>
       <div className="division"></div>
       {/* 세로 연혁 방식으로 표출, 직장 + 나의 역활 */}
 
-      <section className="timeline-container relative">
+      <section className="timeline-container relative h-full">
         <div className="timeline-item flex relative">
           <div className="dot"></div>
           <div className="timeline-content flex flex-col">

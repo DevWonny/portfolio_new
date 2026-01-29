@@ -1,6 +1,7 @@
 @import "@/styles/globals.scss";
 div.portfolio-wrap {
   cursor: default;
+  overflow: hidden;
   h1.title {
     font-size: 48px;
   }
@@ -13,6 +14,7 @@ div.portfolio-wrap {
   }
 
   div.portfolio-contents {
+    padding-bottom: 100px;
     div.list-container {
       // border: 1px solid red;
       div.company-container,
@@ -51,6 +53,7 @@ div.portfolio-wrap {
 
     div.detail-wrap {
       width: 50%;
+      overflow: auto;
       // border: 1px solid red;
     }
   }

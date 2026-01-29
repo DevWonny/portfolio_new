@@ -1,6 +1,7 @@
 @import "@/styles/globals.scss";
 div.about-wrap {
   cursor: default;
+  overflow: scroll;
   h1.title {
     font-size: 48px;
   }
