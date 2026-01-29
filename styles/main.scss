@@ -34,7 +34,14 @@ div.main-wrap {
 
     div.content {
       padding: 100px 50px 50px;
-      height: 700px;
+      &.about-active {
+        @media (max-width: 1740px) {
+          height: 700px;
+        }
+      }
+      &.besides-active {
+        height: 700px;
+      }
     }
   }
 }

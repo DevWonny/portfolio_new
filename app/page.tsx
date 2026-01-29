@@ -12,7 +12,7 @@ export default function Main() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="main-wrap flex xl:gap-[50px] max-xl:gap-[20px]">
+    <div className="main-wrap flex xl:gap-[50px] max-xl:gap-[20px] xl:h-screen">
       <Introduce />
       <div className="main-container relative">
         <div className="select-container absolute">
@@ -31,7 +31,9 @@ export default function Main() {
           </ul>
         </div>
 
-        <div className="content w-full">
+        <div
+          className={`content w-full ${activeIndex === 0 ? "about-active" : "besides-active"}`}
+        >
           {activeIndex === 0 ? (
             <About />
           ) : activeIndex === 1 ? (
