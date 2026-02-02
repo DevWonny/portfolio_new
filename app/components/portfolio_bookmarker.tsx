@@ -25,7 +25,7 @@ export default function PortfolioBookmarker() {
         </p>
         <p>현재 상태 : Live</p>
         <a
-          href="https://bookmarker-liard.vercel.app/"
+          href="https://projectbookmarker.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
