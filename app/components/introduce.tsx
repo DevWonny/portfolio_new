@@ -8,7 +8,7 @@ import { Github, FileUser } from "lucide-react";
 export default function Introduce() {
   return (
     // * 각 라벨 옆에 아이콘 넣기(맥북에서)!
-    <div className="introduce-wrap flex flex-col items-center">
+    <div className="introduce-wrap flex flex-col items-center xl:h-full max-xl:h-[700px]">
       <div className="profile-container flex flex-col items-center">
         <div className="profile-picture flex items-center justify-center">
           <img src="/profile.jpg" alt="Profile Image" />
@@ -51,8 +51,9 @@ export default function Introduce() {
           <div className="resume-container flex flex-col items-center">
             <p className="label">RESUME</p>
             <div className="icon flex items-center justify-center">
-              {/* <a href="" download="윤철원_이력서.pdf"></a> */}
-              <FileUser />
+              <a href="/resume.pdf" download="윤철원_이력서.pdf">
+                <FileUser />
+              </a>
               {/* 아이콘 넣기. 클릭시 다운로드 */}
             </div>
           </div>
