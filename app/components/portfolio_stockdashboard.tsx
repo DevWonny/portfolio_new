@@ -24,6 +24,7 @@ export default function PortfolioDashboard() {
           사용 스택 : React / Next.js / Typescript / Socket.io / Axios /
           Lightweight Charts / TailwindCSS / SCSS
         </p>
+        <p>기간 : 2025.09 ~ 2025.11</p>
         <p>현재 상태 : Live</p>
         <a
           href="https://stock-dashboard-ten-rho.vercel.app/"
@@ -65,11 +66,9 @@ export default function PortfolioDashboard() {
           <div className="detail-content flex flex-col">
             <h2>기획 의도</h2>
             <p>{`REST API 중심의 데이터 처리에서 한 단게 나아가, 실시간 데이터 수신 / 상태 반영 / 차트 업데이트 흐름을 프론트엔드에서 직접 경험하고 구조적으로 이해하기 위해 기획했습니다. `}</p>
-            <ul className="flex flex-col">
-              <li>{`WebSocket(Socket.io)을 활용한 실시간 통신 구조 이해`}</li>
-              <li>{`실시간 데이터에 따른 UI 및 상태 동기화 경험`}</li>
-              <li>{`프론트엔드 - 서버 간 데이터 흐름 설계 연습`}</li>
-            </ul>
+            <p>{`WebSocket(Socket.io)을 활용한 실시간 통신 구조 이해`}</p>
+            <p>{`실시간 데이터에 따른 UI 및 상태 동기화 경험`}</p>
+            <p>{`프론트엔드 - 서버 간 데이터 흐름 설계 연습`}</p>
           </div>
 
           <div className="detail-content flex flex-col">
@@ -93,7 +92,7 @@ export default function PortfolioDashboard() {
           <div className="detail-content flex flex-col">
             <h2>아쉬운 점</h2>
             <p>{`실시간 데이터 흐름 검증을 우선시 하여 백엔드의 기능을 최소 구성`}</p>
-            <p>{`초기 구현 단계애서 반응형 UI 적용 미흡`}</p>
+            <p>{`초기 구현 단계에서 반응형 UI 적용 미흡`}</p>
             <p>{`Open API의 특성상 국내 주식 데이터 확인에 제약 발생`}</p>
             <p>{`Websocket 연결 안정성 및 예외 상황(재연결, 네트워크 오류 등)에 대한 처리 부족`}</p>
           </div>

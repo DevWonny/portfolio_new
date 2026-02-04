@@ -22,6 +22,11 @@ export default function PortfolioAuton() {
         <p>소속 회사 : 프래프</p>
         <p>주요 역할 : 프론트엔드 개발</p>
         <p>사용 스택 : React / Javascript / Axios </p>
+        <p>기간 : 2022.05 ~ 2022.08 (약 3개월)</p>
+        <p>
+          투입 인원 : 디자이너 1명, 퍼블리셔 1명, 프론트엔드 개발자 3명, 백엔드
+          개발자 2명
+        </p>
         <p>현재 상태 : Closed Service</p>
       </div>
 

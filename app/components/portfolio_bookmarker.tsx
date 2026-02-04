@@ -23,6 +23,7 @@ export default function PortfolioBookmarker() {
           사용 스택 : React / Next.js / Typescript / Zustand / Axios /
           TailwindCSS / SCSS
         </p>
+        <p>기간 : 2025.04 ~ 2025.06</p>
         <p>현재 상태 : Live</p>
         <a
           href="https://projectbookmarker.netlify.app/"

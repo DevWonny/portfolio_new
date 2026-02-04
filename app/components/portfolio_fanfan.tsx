@@ -25,6 +25,11 @@ export default function PortfolioFanfan() {
           사용 스택 : Vue.js / Nuxt.js / Typescript / Pinia / Axios / Chart.js /
           SCSS
         </p>
+        <p>기간 : 2022.12 ~ 2025.01(약 2년 2개월)</p>
+        <p>
+          투입 인원 : 12명 ~ 15명 (프로젝트 진행 중 인력 교체로 인한 인원변동
+          발생)
+        </p>
         <p>현재 상태 : Internal Project / Closed Service</p>
       </div>
 
@@ -67,7 +72,7 @@ export default function PortfolioFanfan() {
 
           <div className="detail-content flex flex-col">
             {/* 핵심 기능 및 구현 내용 -> 문제 - 해결 방법 - 사용 기술 흐름으로 */}
-            <h2>핵심 구현 내용</h2>
+            <h2>주요 구현 내용</h2>
             <ul>
               <li className="sub-title">메인 / 마이페이지 / 샵 / 랭킹</li>
               <li>공통 UI 컴포넌트 설계 및 API 연동</li>
@@ -99,6 +104,7 @@ export default function PortfolioFanfan() {
             <p>{`Vue.js / Nuxt.js / Typescript 기반 SPA 개발`}</p>
             <p>{`Pinia를 활용한 전역 상태 관리`}</p>
             <p>{`Jira를 통한 이슈 관리 및 Notion 문서 협업`}</p>
+            <p>{`Figma를 통한 디자인 및 기획 협업`}</p>
             <p>{`Postman을 활용한 API 테스트 및 협업`}</p>
           </div>
 

@@ -12,7 +12,7 @@ export default function About() {
 
       <div className="intro-container">
         <div className="badge">Introduction</div>
-        <div className="text">{`안녕하세요.\n개발 과정에서 소통비용을 줄이는 것을 목표로 생각하는 3년차 프론트엔드 개발자 윤철원입니다.\nReact 기반의 초기 실무 경험 이후 Vue/Nuxt.js/Typescript 환경에서 2년 이상 근무하며\n기획 및 디자인 단계부터 구현 방식과 기술적 제약을 함께 논의해왔습니다.`}</div>
+        <div className="text">{`안녕하세요.\n개발 과정에서 소통비용을 줄이는 것을 목표로 생각하는 3년차 프론트엔드 개발자 윤철원입니다.\nReact 기반의 초기 실무 경험 이후 Vue/Nuxt.js/Typescript 환경에서 2년 이상 근무하며,\n기획 및 디자인 단계부터 구현 방식과 기술적 제약을 함께 논의해왔습니다.\n저는 새로운 기술을 배우고 적용하는 과정을 즐기며,\n새로운 경험과 도전을 통해 지속적으로 성장하는 개발자를 지향합니다.`}</div>
       </div>
 
       <div className="style-container">
