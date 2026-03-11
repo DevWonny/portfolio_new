@@ -5,6 +5,7 @@ import PortfolioFanfan from "./portfolio_fanfan";
 import PortfolioAuton from "./portfolio_auton";
 import PortfolioBookmarker from "./portfolio_bookmarker";
 import PortfolioDashboard from "./portfolio_stockdashboard";
+import PortfolioReMemory from "./portfolio_rememory";
 
 // style
 import "@/styles/components/portfolio.scss";
@@ -58,6 +59,12 @@ export default function Portfolio() {
             >
               StockDashboard
             </p>
+            <p
+              className={`project-label ${activeIndex === 5 && "active"}`}
+              onClick={() => onClickLabel(5)}
+            >
+              Re:Memory
+            </p>
           </div>
         </div>
 
@@ -68,8 +75,10 @@ export default function Portfolio() {
             <PortfolioAuton />
           ) : activeIndex === 3 ? (
             <PortfolioBookmarker />
+          ) : activeIndex === 4 ? (
+            <PortfolioDashboard />
           ) : (
-            activeIndex === 4 && <PortfolioDashboard />
+            <PortfolioReMemory />
           )}
         </div>
       </div>
